@@ -2,7 +2,8 @@ export const initialTickets = [
   {
     id: '1',
     title: 'Ticket 1',
-    content: 'This is the first ticket.',
+    content:
+      'This is the first ticket.',
     status: 'DONE' as const,
   },
   {
