@@ -3,6 +3,7 @@ import { initialTickets } from '@/data'
 import { ticketPath } from '@/path'
 import { Separator } from '@/components/ui/separator'
 import { LucideFileText, LucideCheckCircle, LucidePencil } from 'lucide-react'
+import { Heading } from '@/components/heading'
 
 import {
   Card,
@@ -72,6 +73,7 @@ const TICKET_ICONS = {
 const TicketsPage = () => {
   return (
     <div className="flex-1 flex flex-col gap-y-8">
+      <Heading title="Tickets" description="All your tickets in one place" />
       <div>
         <h2 className="text-3xl font-bold tracking-tight">Tickets</h2>
         <p className="text-sm text-muted-foreground">
